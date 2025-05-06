@@ -1,0 +1,27 @@
+{
+  "name": "minecraft-addon-generator",
+  "version": "1.0.0",
+  "description": "A generator for Minecraft Bedrock add-ons using JavaScript.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "addon",
+    "generator",
+    "bedrock"
+  ],
+  "type": "module",
+  "author": "ReBo",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.6",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
